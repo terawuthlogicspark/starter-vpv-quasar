@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import pdfWorker from 'pdfjs-dist/build/pdf.worker?url';
 import { type ToolbarOptions, VPdfViewer } from '@vue-pdf-viewer/viewer';
+import pdfWorker from 'pdfjs-dist/build/pdf.worker?url';
 
 const props = withDefaults(
   defineProps<{
