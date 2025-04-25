@@ -1,24 +1,13 @@
-# VPV Starter Toolkit in Quasar
+# Vue PDF Viewer Starter Starter Toolkit in Quasar
 
-Welcome to the Vue PDF Viewer (VPV) starter toolkit! This repository provides a comprehensive guide on how to use VPV with Quasar. This repo showcases how VPV can be integrated and rendered as part of a Quasar project.
+Welcome to the Vue PDF Viewer starter toolkit! This repository provides a comprehensive guide on how to use Vue PDF Viewer Starter with Quasar. This repo showcases how Vue PDF Viewer Starter can be integrated and rendered as part of a Quasar project.
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
   - [Project Setup](#project-setup)
   - [Running the Example Project](#running-the-example-project)
 - [Examples](#examples)
-
-## Installation
-
-To get started, please clone this repo to your local machine and install the dependencies:
-
-```bash
-git clone https://github.com/vue-pdf-viewer/starter-vpv-quasar.git
-cd starter-vpv-quasar
-npm install
-```
 
 ## Usage
 
@@ -31,7 +20,7 @@ git clone https://github.com/vue-pdf-viewer/starter-vpv-quasar.git
 cd starter-vpv-quasar
 ```
 
-2. **Install Dependencies**: Install the necessary dependencies using npm or yarn
+2. **Install Dependencies**: Install the necessary dependencies using npm, yarn, pnpm or bun
 
    ```bash
    npm install
@@ -43,13 +32,13 @@ cd starter-vpv-quasar
    bun install
    ```
 
-_Remark: For `pnpm`, there is a bit more configuration required which can be found [here](https://docs.vue-pdf-viewer.dev/troubleshooting.html#_3-resolving-peer-dependency-version-mismatch-with-pnpm)._
+_Remark: For `pnpm`, there is a bit more configuration required which can be found [here](https://docs.vue-pdf-viewer.dev/introduction/getting-started.html#install-vue-pdf-viewer)._
 
 ### Running the Example Project
 
-This repo includes an example project to demonstrate how to use VPV. To run the example project:
+This repository includes an example project to demonstrate Vue PDF Viewer in action:
 
-1. **Serve the Application**: Use the following command to start the development server
+1. **Start the Development Server**: Use the following command to start the development server
 
    ```bash
    npm run dev
@@ -63,11 +52,11 @@ This repo includes an example project to demonstrate how to use VPV. To run the 
 
 2. **Open in Browser**: Open your browser and navigate to `http://localhost:9000` (or the port specified in your terminal) to see the example project in action
 
-### Using the VPV Component
+### Using the Vue PDF Viewer Starter Component
 
-Once the example project is running, you can explore the source code to see how the VPV component is integrated. Here is a brief overview:
+Once the example project is running, you can explore the source code to see how the Vue PDF Viewer Starter component is integrated. Here is a brief overview:
 
-1. **Import the component**: Import the desired VPV component into your Vue file
+1. **Import the component**: Import the desired Vue PDF Viewer Starter component into your Vue file
 
 ```html
 <script setup lang="ts">
@@ -78,7 +67,7 @@ Once the example project is running, you can explore the source code to see how 
 </script>
 ```
 
-2. **Use the component in the template**: Add the VPV component to your template section
+2. **Use the component in the template**: Add the Vue PDF Viewer Starter component to your template section
 
    ```html
    <template>
@@ -99,6 +88,10 @@ For more examples, please refer to the `src/page/IndexPage.vue` file in this rep
 _Remark: If you would like more examples, feel free open an issue._
 
 For more configurations, please check the [documentation](https://docs.vue-pdf-viewer.dev) site.
+
+## Meta
+- Homepage: [https://www.vue-pdf-viewer.dev](https://www.vue-pdf-viewer.dev)
+- Docs: [https://docs.vue-pdf-viewer.dev](https://docs.vue-pdf-viewer.dev)
 
 ---
 
